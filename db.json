@@ -6,18 +6,22 @@
       "options" : [
         {
           "name" : "Apartment",
+          "icon" : "apartment",
           "id" : "1"
         },
         {
           "name" : "Condo",
+          "icon" : "condo",
           "id" : "2"
         },
         {
           "name" : "Boat House",
+          "icon" : "boat",
           "id" : "3"
         },
         {
           "name" : "Land",
+          "icon" : "land",
           "id" : "4"
         }
       ]
@@ -28,10 +32,12 @@
       "options" : [
         {
           "name" : "1 to 3 Rooms",
+          "icon" : "rooms",
           "id" : "6"
         },
         {
           "name" : "No Rooms",
+          "icon" : "no-room",
           "id" : "7"
         }
       ]
@@ -42,14 +48,17 @@
       "options" : [
         {
           "name" : "Swimming Pool",
+          "icon" : "swimming",
           "id" : "10"
         },
         {
           "name" : "Garden Area",
+          "icon" : "garden",
           "id" : "11"
         },
         {
           "name" : "Garage",
+          "icon" : "garage",
           "id" : "12"
         }
       ]
