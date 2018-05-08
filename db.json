@@ -1,0 +1,91 @@
+{
+  "facilities" : [
+    {
+      "facility_id" : "1",
+      "name" : "Property Type",
+      "options" : [
+        {
+          "name" : "Apartment",
+          "id" : "1"
+        },
+        {
+          "name" : "Condo",
+          "id" : "2"
+        },
+        {
+          "name" : "House Boat",
+          "id" : "3"
+        },
+        {
+          "name" : "Land",
+          "id" : "4"
+        }
+      ]
+    },
+    {
+      "facility_id" : "2",
+      "name" : "Number of Rooms",
+      "options" : [
+        {
+          "name" : "1 to 3 Rooms",
+          "id" : "6"
+        },
+        {
+          "name" : "No Rooms",
+          "id" : "7"
+        }
+      ]
+    },
+    {
+      "facility_id" : "3",
+      "name" : "Other facilities",
+      "options" : [
+        {
+          "name" : "Swimming Pool",
+          "id" : "10"
+        },
+        {
+          "name" : "Garden Area",
+          "id" : "11"
+        },
+        {
+          "name" : "Garage",
+          "id" : "12"
+        }
+      ]
+    }
+  ]
+  ,
+  "exclusions" : [
+    [
+      {
+        "facility_id" : "1",
+        "options_id" : "4"
+      },
+      {
+        "facility_id" : "2",
+        "options_id" : "6"
+      }
+    ],
+    [
+      {
+        "facility_id" : "1",
+        "options_id" : "3"
+      },
+      {
+        "facility_id" : "3",
+        "options_id" : "12"
+      }
+    ],
+    [
+      {
+        "facility_id" : "2",
+        "options_id" : "7"
+      },
+      {
+        "facility_id" : "3",
+        "options_id" : "12"
+      }
+    ]
+  ]
+}
